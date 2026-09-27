@@ -27,6 +27,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full flex flex-col">
         <Header />
         {children}
+        <footer className="mt-auto py-10 text-center text-sm">
+          <p>© 2026 Joel Goh</p>
+        </footer>
       </body>
     </html>
   );
